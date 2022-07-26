@@ -1,0 +1,12 @@
+
+      <div className="nav-sub">
+        <h1 className="nav-item left">Software Mind</h1>
+        <h4 className="nav-item left">About Us</h4>
+        <h4 className="nav-item left">Offer</h4>
+        <h4 className="nav-item left">Case studies</h4>
+      </div>
+      <div className="nav-sub">
+        <h4 className="nav-item right">Careers</h4>
+        <h4 className="nav-item right">Blog</h4>
+        <h4 className="nav-item right">Contact</h4>
+      </div>

@@ -1,9 +1,3 @@
-import Expertise from "./components/Expertise";
-import Footer from "./components/Footer";
-import Main from "./components/Main";
-import NewsLetter from "./components/NewsLetter";
-import SecondSlide from "./components/SecondSlide";
-import Technologies from "./components/Technologies";
 import Development from "./pages/Development";
 
 import { Routes } from "react-router-dom";

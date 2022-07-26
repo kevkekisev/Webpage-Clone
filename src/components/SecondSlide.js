@@ -26,7 +26,7 @@ function SecondSlide() {
             See more about us
           </Link>
         </div>
-        <img src={webdev01} className="second-slide-img" />
+        <img src={webdev01} className="second-slide-img" alt="" />
       </div>
       <div className="sub-section ">
         <div className="desc-block ">

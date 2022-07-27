@@ -5,9 +5,15 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function NewsLetter() {
   const [valid, setValid] = useState(false);
+  const [sent, setSent] = useState(false);
 
   function handleChange() {
     setValid((prevState) => !prevState);
+  }
+
+  function handleSent(e) {
+    e.preventDefault();
+    setSent((prevState) => !prevState);
   }
   return (
     <div className="contact-email">
@@ -17,7 +23,7 @@ function NewsLetter() {
           <span>
             <FontAwesomeIcon icon={faEnvelope} />
           </span>
-          <form action="submit" method="post">
+          <form onSubmit={handleSent}>
             <input
               type="email"
               name="email"
@@ -51,6 +57,14 @@ function NewsLetter() {
             <button type="submit" className="submit-btn">
               SEND
             </button>
+            {sent ? (
+              <h3 className="ty-message">
+                Thank you for your message, we will get back to you as soon as
+                possible! - This is a demo
+              </h3>
+            ) : (
+              ""
+            )}
           </form>
         </div>
         <div className="img-container">

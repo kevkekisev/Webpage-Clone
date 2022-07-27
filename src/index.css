@@ -483,7 +483,11 @@ form {
 }
 
 .email {
-  width: 200px;
+  width: 70%;
+}
+
+.email[type="email"]:selected {
+  background-color: transparent;
 }
 
 .team-img {
@@ -538,6 +542,15 @@ form {
   background-color: #3378ff;
   color: black;
   transform: scale(1.2);
+}
+
+.ty-message {
+  background-color: rgba(51, 120, 255, 0.8g);
+  border: none;
+  border-radius: 10px;
+  padding: 0.5em;
+  font-weight: 400;
+  color: #fff;
 }
 
 /* FOOTER */
@@ -679,6 +692,7 @@ form {
 
   .email {
     font-size: 1.2em;
+    outline: none;
   }
 
   textarea {

@@ -170,7 +170,7 @@ a {
   border: none;
   font-family: inherit;
   font-weight: bolder;
-  color: white !important;
+  color: white;
   background-color: #3378ff;
   cursor: pointer;
   transition: transform 200ms ease-in-out;
